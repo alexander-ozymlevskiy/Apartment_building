@@ -15,9 +15,7 @@ class Person {
 // Квартира.
 
 class Apartment {
-  constructor() {
-    this.residents = [];
-  }
+  residents = [];
 
   addResident(resident) {
     this.residents.push(resident);
@@ -81,8 +79,6 @@ house.addApartment(apartment3);
 
 // Виведення інформації.
 house.houseInfo();
-
-
 
 /*
 
